@@ -196,7 +196,7 @@
               <a class="dropdown-item fw-bold" href="#">{{Auth::user()->name}}</a>
             </li>
             <li>
-              <a class="dropdown-item" href="">My Profile</a>
+              <a class="dropdown-item" href="{{route('profile.index')}}">My Profile</a>
             </li>
             <li>
               <a class="dropdown-item" href="{{route('auth.logout')}}">Logout</a>

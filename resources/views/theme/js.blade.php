@@ -1,3 +1,6 @@
-<script type="text/javascript" src="js/mdb.min.js"></script>
-<!-- Custom scripts -->
-<script type="text/javascript"></script>
+<script type="text/javascript" src="{{asset('js/jquery.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/mdb.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/script.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/confirm.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/swa2.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/toastr.js')}}"></script>

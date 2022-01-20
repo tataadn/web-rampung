@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WebController;
 use App\Http\Controllers\AuthController;
-
+use App\Http\Controllers\ProfileController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -30,4 +30,7 @@ Route::prefix('auth/')->name('auth.')->group(function(){
 });
 Route::middleware(['auth'])->group(function(){
     Route::get('logout',[AuthController::class, 'do_logout'])->name('auth.logout');
+    Route::get('profile',[ProfileController::class, 'index'])->name('profile.index');
+    Route::get('profile/edit',[ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('profile/update/{user}',[ProfileController::class, 'update'])->name('profile.update');
 });  

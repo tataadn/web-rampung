@@ -72,7 +72,7 @@ class AuthController extends Controller
         $validator = Validator::make($request->all(), [
             'name' => 'required',
             'email' => 'required|unique:users|max:255',
-            'username' => 'required|unique:users|max:25',
+            'username' => 'required|unique:users|max:25|min:8',
             'password' => 'required|min:8',
         ]);
 
@@ -103,7 +103,7 @@ class AuthController extends Controller
         $user = new User;
         $user->name = Str::title($request->name);
         $user->email = $request->email;
-        $user->username = Str::before($request->email, '@');
+        $user->username = $request->username;
         $user->password = Hash::make($request->password);
         $user->save();
         return response()->json([

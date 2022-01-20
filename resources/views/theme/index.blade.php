@@ -12,5 +12,6 @@
       <!-- Footer -->
        @include('theme.footer')
        @include('theme.js')
+       @yield('custom_js')
   </body>
 </html>
