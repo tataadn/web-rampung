@@ -18,7 +18,7 @@
                 </div>
                 <div class="col-md-6 col-lg-7 d-flex align-items-center">
                   <div class="card-body p-4 text-black">
-    
+
                     <form id="form_login">
                       <div class="d-flex align-items-center">
                           <img

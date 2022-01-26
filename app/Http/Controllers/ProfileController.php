@@ -47,11 +47,8 @@ class ProfileController extends Controller
     {
             $exists = User::where('id', '!=',Auth::user()->id)->where('username',$request->username)->count();
             $validator = Validator::make($request->all(), [
-                'name' => 'required',
-                'username' => "required|max:25|unique:users,username,NULL,id".$request->id,
-                // 'current_password'=>[new MatchOldPassword],
-                // 'new_password' => 'min:8',
-                // 'new_confirm_password' => ['same:new_password'],
+                'name' => 'required|max:255',
+                'username' => 'required|max:20|min:8',
             ]);
     
             if ($validator->fails()) {
@@ -62,19 +59,26 @@ class ProfileController extends Controller
                         'message' => $errors->first('name'),
                     ]);
                 } 
-                elseif ($exists) {
+                elseif ($errors->has('username')) {
                     return response()->json([
                         'alert' => 'error',
-                        'message' => 'Username Sudah Digunakan. Cari Username Lain',
+                        'message' => $errors->first('username'),
                     ]);
-                }
+                } 
+            }
+
+            elseif ($exists) {
+                return response()->json([
+                    'alert' => 'error',
+                    'message' => 'Username Sudah Digunakan. Cari Username Lain',
+                ]);
             }
 
             if($request->current_password){
                 $validator2 = Validator::make($request->all(), [
-                    'current_password'=>[new MatchOldPassword],
-                    'new_password' => 'min:8',
-                    'new_confirm_password' => ['same:new_password'],
+                    'current_password'=>['required', new MatchOldPassword],
+                    'new_password' => 'required|min:8',
+                    'new_confirm_password' => ['required','same:new_password'],
                 ]);
                 if($validator2->fails()) {
                     $errors = $validator2->errors();
@@ -82,6 +86,12 @@ class ProfileController extends Controller
                         return response()->json([
                             'alert' => 'error',
                             'message' => 'Password Lama Anda Salah',
+                        ]);
+                    }
+                    elseif ($errors->has('new_password')) {
+                        return response()->json([
+                            'alert' => 'error',
+                            'message' =>  $errors->first('new_password'),
                         ]);
                     }
                     elseif ($errors->has('new_confirm_password')) {
@@ -93,17 +103,17 @@ class ProfileController extends Controller
                 }
             }
            
-        $user->name = Str::title($request->name);
-        $user->username = $request->username;
-        if($request->new_password)
-        {
-            $user->password = Hash::make($request->new_password);
-        }
-        $user->update();
-        return response()->json([
-            'alert' => 'success',
-            'message' => 'Profile Telah Diperbaharui ',
-        ]);
+            $user->name = Str::title($request->name);
+            $user->username = $request->username;
+            if($request->new_password)
+            {
+                $user->password = Hash::make($request->new_password);
+            }
+            $user->update();
+            return response()->json([
+                'alert' => 'success',
+                'message' => 'Profile Telah Diperbaharui ',
+            ]);
     }
 
     public function destroy(User $user)
