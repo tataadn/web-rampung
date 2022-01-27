@@ -13,6 +13,8 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
     />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- MDB -->
     <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}" />
     <link rel="stylesheet" href="{{asset('css/style.css')}}" />

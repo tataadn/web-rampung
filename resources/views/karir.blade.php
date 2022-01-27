@@ -1,4 +1,4 @@
-@extends('theme.index')
+@extends('main')
 
 @section('content')
         <!-- jumbotron -->
@@ -6,7 +6,7 @@
             <div class="row" style="padding: 5rem 3rem 3rem 3rem;">
                 <div class="col">
                     <div class="p-5 text-center bg-light">
-                        <h1 class="mb-4"><strong>Jadilah bagian dari perjalanan kami</strong></h1>
+                        <h1 class="mb-4">Jadilah bagian dari perjalanan kami</h1>
                         <h5 class="mb-5">Bergabunglah dalam perjalanan kami untuk menciptakan pendidikan Indonesia yang berdaya saing melalui pemanfaatan big data analytics dan artificial intelligence. Temukan berbagai tantangan serta kesempatan baru yang akan mengasah kemampuanmu!</h5>
                         <a class="btn btn-primary text-uppercase" href="" role="button"><h6>Lihat Lowongan</h6></a>
                     </div>
@@ -20,7 +20,7 @@
         <div class="container p-5 justify-content-center">
             <div class="row">
                 <div class="col">
-                    <h4 class="text-uppercase text-center p-2"><strong>value kami</strong></h4>
+                    <h4 class="text-uppercase text-center p-2">value kami</h4>
                 </div>
             </div>
             <div class="row">
@@ -76,7 +76,7 @@
           <div class="container justify-content-center p-5">
               <div class="row">
                   <div class="col">
-                      <h4 class="text-uppercase text-center p-4"><strong>posisi yang dibutuhkan</strong></h4>
+                      <h4 class="text-uppercase text-center p-4">posisi yang dibutuhkan</h4>
                   </div>
               </div>
               <div class="row">

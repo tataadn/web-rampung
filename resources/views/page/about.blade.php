@@ -3,10 +3,10 @@
 @section('content')
       <!-- jumbotron -->
         <section id="jumbotron">
-            <div class="row" style="padding: 5rem 3rem 3rem 3rem;">
+            <div class="row" style="padding: 5rem 0 3rem 3rem;">
                 <div class="col">
                     <div class="p-5 text-center bg-light">
-                        <h1 class="mb-4">Mewujudkan Mimpi Pendidikan Indonesia dengan Pemanfaatan Big Data dan Kecerdasan Buatan</h1>
+                        <h1 class="mb-4"><strong>Mewujudkan Mimpi Pendidikan Indonesia dengan Pemanfaatan Big Data dan Kecerdasan Buatan</strong></h1>
                         <h5 class="mb-5">Permasalah kesenjangan pendidikan yang selama ini terjadi bisa diselesaikan, dimulai dengan analisis big data terhadap data pembelajaran anak yang terpersonalisasi</h5>
                         <a class="btn btn-primary text-uppercase" href="" role="button"><h6>hubungi kami</h6></a>
                     </div>
@@ -15,7 +15,7 @@
         </section>
       <!-- jumbotron -->
 
-      <!-- content pertama -->
+      <!-- content visi misi -->
         <section class="content " style="background-image: url(img/bigdata.jpg);">
           <div class="container">
             <div class="row justify-content-center">
@@ -29,7 +29,7 @@
                 </div>
               </div>
               <div class="col-sm-2 pb-2">
-                <div class="line mt-5" style="height: 100px; border-right: 2px solid black; margin-right: 50%;">
+                <div class="garis mt-5" style="height: 100px; border-right: 2px solid black; margin-right: 50%;">
                 </div>
               </div>
               <div class="col-sm-5">
@@ -51,7 +51,7 @@
             </div>
           </div>
         </section>
-      <!-- content pertama -->
+      <!-- content visi misi -->
 
       <!-- content kedua -->
         <section class="content p-5">
@@ -61,7 +61,7 @@
                 <div class="card">
                   <div class="row">
                     <div class="col-sm-6">
-                      <div class="card-body">
+                      <div class="card-body mt-4">
                         <h4 class="card-title">Bergabunglah dengan tim kami untuk membangun pendidikan Indonesia berkualitas</h4>
                         <a href="#!" class="btn btn-primary text-uppercase mt-3"><h6>lihat lowongan</h6></a>
                       </div>

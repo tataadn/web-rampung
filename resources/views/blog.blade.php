@@ -1,4 +1,4 @@
-@extends('theme.index')
+@extends('main')
 
 @section('content')
     <!-- running text -->
@@ -37,16 +37,16 @@
                     <div class="">
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-sm-6 p-2">
+                                <div class="col-sm-5 p-2">
                                     <h2>Kemdikbudristek Sepakati Kerjasama untuk Perkuat SDM Vokasi Bidang Gim dan Pemrograman
                                     </h2>
                                     <p>Kristi Dese - 13 Januari 2022
                                     </p>
-                                    <img src="https://akcdn.detik.net.id/visual/2021/03/10/rapat-kerja-kemendikbud-dpr_169.jpeg?w=650" alt="" width="435px">
+                                    <img src="https://akcdn.detik.net.id/visual/2021/03/10/rapat-kerja-kemendikbud-dpr_169.jpeg?w=650" alt="" width="300px">
                                 </div>
-                                <div class="col-sm-4 p-2">
+                                <div class="col-sm-5 p-2">
                                     <h6 style="color: rgb(140, 170, 252);">Artikel Terbaru</h6>
-                                    <div class="card pt-2">
+                                    <div class="card">
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">
                                                 <a href="" style="color: black;"><strong>Mengapa NLP Penting?</strong> <br> Kristi Dese - 13 Januari 2022</a>
@@ -66,9 +66,9 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-sm-2 text-center" >
+                                <div class="col-sm-2 p-2 text-center" >
                                     <div class="card">
-                                        <div class="border border-dark pt-5 pb-5" style="width: 100%;">
+                                        <div class="border border-dark p-5" style="width: 100%;">
                                             <h2>I</h2>
                                             <h2>K</h2>
                                             <h2>L</h2>
@@ -87,7 +87,7 @@
     <!-- bagian pertama -->
 
     <!-- bagian kedua -->
-    <section class="content bg-dark bg-opacity-10">
+    <section class="content">
         <div class="container p-5 justify-content-center">
           <div class="row p-3">
             <div class="col">

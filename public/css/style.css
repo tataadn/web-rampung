@@ -205,8 +205,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5{
 	color: #444;
 	font-weight: 600;
 	line-height: 1.5;
@@ -15297,7 +15296,7 @@ input.switch-flat-xlarge.switch-toggle-flat:checked + label::after { margin-left
 .page-link:focus { color: #1ABC9C; }
 
 .btn-link:hover,
-.btn-link:focus { color: #222; }
+.btn-link:focus { color: #fff; }
 
 .boot-tabs { margin-bottom: 20px !important; }
 
