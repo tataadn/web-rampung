@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WebController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\SubscribeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,6 +23,7 @@ Route::get('about', [WebController::class, 'about'])->name('page.about');
 Route::get('blog', [WebController::class, 'blog'])->name('page.blog');
 Route::get('carier', [WebController::class, 'carier'])->name('page.carier');
 Route::get('home', [WebController::class, 'home'])->name('page.home');
+Route::post('subscription', [SubscribeController::class, 'store'])->name('subscription.store');
 
 Route::prefix('auth/')->name('auth.')->group(function(){
     Route::get('index',[AuthController::class, 'index'])->name('index');
@@ -31,6 +33,7 @@ Route::prefix('auth/')->name('auth.')->group(function(){
 Route::middleware(['auth'])->group(function(){
     Route::get('logout',[AuthController::class, 'do_logout'])->name('auth.logout');
     Route::get('profile',[ProfileController::class, 'index'])->name('profile.index');
+    Route::patch('profile/subscribe/{id}',[ProfileController::class, 'subscribe'])->name('profile.subscribe');
     Route::get('profile/edit',[ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('profile/update/{user}',[ProfileController::class, 'update'])->name('profile.update');
 });  

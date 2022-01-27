@@ -51,8 +51,12 @@ function handle_save(tombol, form, url, method, title){
                 setTimeout(function () {
                     $(tombol).prop("disabled", false);
                         $(tombol).html(title);
-                        main_content('content_list');
-                        load_list(1);
+                        if(title == 'subscribed'){
+                            location.reload();
+                        }else{
+                            main_content('content_list');
+                            load_list(1);
+                        }
                 }, 2000);
             } else {
                 Swal.fire({ text: response.message, icon: "error", buttonsStyling: !1, confirmButtonText: "Ok, Mengerti!", customClass: { confirmButton: "btn btn-primary" } });
@@ -63,4 +67,14 @@ function handle_save(tombol, form, url, method, title){
             }
         },
     });
+}
+
+function handle_post(url){
+    $.post(url, {}, function(result) {
+        Swal.fire(
+            "Berhasil!",
+            response.message,
+            "success"
+        );
+    }, "json");
 }

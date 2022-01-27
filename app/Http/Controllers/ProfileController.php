@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Auth;
 use App\Rules\MatchOldPassword;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
+use App\Models\Subscription;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Hash;
 
@@ -114,6 +115,21 @@ class ProfileController extends Controller
                 'alert' => 'success',
                 'message' => 'Profile Telah Diperbaharui ',
             ]);
+    }
+
+    public function subscribe(Request $request, User $user,$id)
+    {
+        $user = User::where('id',$id)->first();
+        $user->subscription = "Y";
+        $subs = new Subscription;
+        $subs->users_id = $request->users_id;
+        $subs->email = $request->email_subs1;
+        $user->update();
+        $subs->save();
+        return response()->json([
+            'alert' => 'success',
+            'message' => 'Telah Berhasil Langganan! ',
+        ]);
     }
 
     public function destroy(User $user)

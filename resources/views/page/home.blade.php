@@ -420,15 +420,37 @@
                       <h5 class="card-title">Bergabung dengan newsletter kami</h5>
                       <p class="card-text">Bergabung newsletter mingguan kami untuk mendapatkan informasi dan penawaran menarik kami lainnya.</p>
                       <div class="row">
-                        <div class="col-sm-8">
-                          <div class="form-outline mb-4">
-                            <input type="email" id="loginName" class="form-control" />
-                            <label class="form-label" for="loginName">Masukkan email anda di sini</label>
-                          </div>
-                        </div>
-                        <div class="col-sm-4">
-                          <button type="button" class="btn btn-light" data-mdb-ripple-color="dark">Kirim</button>
-                        </div>
+                          @auth
+                            <form id="form_langganan1">
+                              <div class="col-sm-8">
+                                <label class="form-label" for="loginName">Masukkan email anda di sini</label>
+                                <div class="form-outline mb-4">
+                                    <input type="hidden" name="users_id" id="users_id" value="{{Auth::user()->id}}">
+                                    <input type="email" id="loginName1" name="email_subs1" class="form-control" value="{{Auth::user()->email}}"/>
+                                  </div>
+                                </div>
+                                <div class="col-sm-4">
+                                  @if(Auth::user()->subscription == 'Y')
+                                    <button type="button" class="button button-primary">Terimakasih Sudah Berlangganan!</button>
+                                  @else
+                                    <button type="button" id="button_langganan1" class="btn btn-primary" onclick="handle_save('#button_langganan1','#form_langganan1','{{route('profile.subscribe',Auth::user()->id)}}','PATCH','subscribed')" data-mdb-ripple-color="dark">Kirim</button>
+                                  @endif
+                                </div>
+                            </form>
+                          @endauth
+                            @guest
+                              <form id="form_langganan2">
+                                <div class="col-sm-8">
+                                  <div class="form-outline mb-4">
+                                    <input type="email" id="loginName2" name="email_subs2" class="form-control" />
+                                    <label class="form-label" for="loginName">Masukkan email anda di sini</label>
+                                  </div>
+                                </div>
+                                <div class="col-sm-4">
+                                  <button type="button" id="button_langganan2" class="btn btn-primary" onclick="handle_save('#button_langganan2','#form_langganan2','{{route('subscription.store')}}','POST','Berlangganan')" data-mdb-ripple-color="dark">Kirim</button>
+                                </div>  
+                              </form>
+                            @endguest
                       </div>
                     </div>
                   </div>

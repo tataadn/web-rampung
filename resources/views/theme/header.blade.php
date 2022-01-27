@@ -108,15 +108,7 @@
                         ><i
                           class="fas fa-caret-right pe-2"
                         ></i
-                        >Rala Data</a
-                      >
-                      <a
-                        href=""
-                        class="list-group-item list-group-item-action"
-                        ><i
-                          class="fas fa-caret-right pe-2"
-                        ></i
-                        >Solution</a
+                        >Rala Data Solution</a
                       >
                       <a
                         href=""
