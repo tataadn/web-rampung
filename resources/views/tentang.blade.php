@@ -13,68 +13,68 @@
                 </div>
             </div>
         </section>
-      <!-- jumbotron -->
+        <!-- jumbotron -->
 
-      <!-- content pertama -->
-      <section class="content p-5" style="background-image: url(img/bigdata.jpg);">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-sm-5">
-              <div class="">
-                <div class="card-body text-center">
-                  <h2 class="card-title text-uppercase">visi kami</h2>
-                  <h5 class="card-text">Meningkatkan Kualitas dan Keterjangkauan Pendidikan dengan Layanan Big Data Analytic dan Artificial Intelligence Secara End-to-End
-                  </h5>
+        <!-- content pertama -->
+        <section class="content p-5" style="background-image: url(img/bigdata.jpg);">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-sm-5">
+                <div class="">
+                  <div class="card-body text-center">
+                    <h2 class="card-title text-uppercase">visi kami</h2>
+                    <h5 class="card-text">Meningkatkan Kualitas dan Keterjangkauan Pendidikan dengan Layanan Big Data Analytic dan Artificial Intelligence Secara End-to-End
+                    </h5>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-sm-2">
-              <div class="line" style="height: 200px; border-left: 2px solid black; margin-left: 50%;">
+              <div class="col-sm-2">
+                <div class="line" style="height: 200px; border-left: 2px solid black; margin-left: 50%;">
+                </div>
               </div>
-            </div>
-            <div class="col-sm-5">
-              <div class="">
-                <div class="card-body">
-                  <h2 class="card-title text-center text-uppercase">misi kami</h2>
-                  <h5 class="card-text text-justify">
-                    <ol>
-                      <li>Menyediakan layanan big data analytic dan artificial intelligence secara end-to-end di bidang pendidikan.
-                      </li>
-                      <li>
-                        Menyediakan pelatihan untuk guru dan pelajar dalam bidang pemanfaatan data
-                      </li>
-                    </ol>
-                  </h5>
+              <div class="col-sm-5">
+                <div class="">
+                  <div class="card-body">
+                    <h2 class="card-title text-center text-uppercase">misi kami</h2>
+                    <h5 class="card-text text-justify">
+                      <ol>
+                        <li>Menyediakan layanan big data analytic dan artificial intelligence secara end-to-end di bidang pendidikan.
+                        </li>
+                        <li>
+                          Menyediakan pelatihan untuk guru dan pelajar dalam bidang pemanfaatan data
+                        </li>
+                      </ol>
+                    </h5>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <!-- content pertama -->
+        </section>
+        <!-- content pertama -->
 
-      <!-- content kedua -->
-      <section class="content p-5">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <div class="card">
-                <div class="row">
-                  <div class="col-sm-6">
-                    <div class="card-body">
-                      <h4 class="card-title">Bergabunglah dengan tim kami untuk membangun pendidikan Indonesia berkualitas</h4>
-                      <a href="#!" class="btn btn-primary text-uppercase mt-3"><h6>lihat lowongan</h6></a>
+        <!-- content kedua -->
+        <section class="content p-5">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="card">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="card-body">
+                        <h4 class="card-title">Bergabunglah dengan tim kami untuk membangun pendidikan Indonesia berkualitas</h4>
+                        <a href="#!" class="btn btn-primary text-uppercase mt-3"><h6>lihat lowongan</h6></a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 text-center">
+                      <img src="img/Analysis _Isometric.png" alt="" style="max-width: 250px;">
                     </div>
                   </div>
-                  <div class="col-sm-6 text-center">
-                    <img src="img/Analysis _Isometric.png" alt="" style="max-width: 250px;">
-                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <!-- content kedua -->
+        </section>
+        <!-- content kedua -->
 
 @endsection

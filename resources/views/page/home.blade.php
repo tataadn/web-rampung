@@ -3,7 +3,7 @@
 @section('content')
       <!-- Jumbotron -->
       <div class="jumbotron">
-        <div class="container vh-100">
+        <div class="container">
             <div class="row mb-5" style="padding: 6rem 2rem 3rem 2rem;">
                 <div class="col-md-7 mb-4 mt-4" data-aos="fade-up" data-aos-duration="3000">
                   <h1 class="mb-3 display-4">Big Data Analytic & AI</h1>
