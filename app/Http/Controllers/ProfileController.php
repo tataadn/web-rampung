@@ -17,7 +17,7 @@ class ProfileController extends Controller
     {
         if($request->ajax())
         {
-            $user = User::where('id', Auth::user()->id)->first();
+            $user = User::find(Auth::user()->id);
             return view('page.profile.list',compact('user'));
         }
         return view('page.profile.main');
@@ -38,9 +38,9 @@ class ProfileController extends Controller
         //
     }
 
-    public function edit(User $user)
+    public function edit()
     {
-        $user = User::where('id', Auth::user()->id)->first();
+        $user = User::find(Auth::user()->id);
         return view('page.profile.input',compact('user'));
     }
 

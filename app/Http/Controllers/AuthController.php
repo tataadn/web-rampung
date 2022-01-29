@@ -42,15 +42,14 @@ class AuthController extends Controller
                 ]);
             }
         }
-        $check = User::where("username", "=", $request->username)->first();
+        $check = User::where("username", $request->username)->first();
+        $user = $request->all();
         if ($check) {
-            if (Auth::guard('web')->attempt(['username' => $request->username, 'password' => $request->password])) {
-                // if (Auth::guard('web')->user()) {
-                    return response()->json([
-                        'alert' => 'success',
-                        'message' => 'Welcome back ' . Auth()->user()->name,
-                    ]);
-                // } 
+            if (Auth::attempt($user)) {
+                return response()->json([
+                    'alert' => 'success',
+                    'message' => 'Selamat Datang Kembali ' . Auth()->user()->name,
+                ]);
             }
             else {
                 return response()->json([
@@ -100,16 +99,15 @@ class AuthController extends Controller
                 ]);
             }
         }
-        $user = new User;
-        $user->name = Str::title($request->name);
-        $user->email = $request->email;
-        $user->username = $request->username;
-        $user->password = Hash::make($request->password);
-        $user->save();
+        $user = $request->all();
+        $user['name'] = Str::title($request->name);
+        $user['password'] = Hash::make($request->password);
+        User::create($user);
         return response()->json([
             'alert' => 'success',
             'message' => 'Selamat bergabung ' . $request->name,
         ]);
+        
     }
 
     public function do_logout(){
