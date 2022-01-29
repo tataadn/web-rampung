@@ -49,7 +49,7 @@ class ProfileController extends Controller
             $exists = User::where('id', '!=',Auth::user()->id)->where('username',$request->username)->count();
             $validator = Validator::make($request->all(), [
                 'name' => 'required|max:255',
-                'username' => 'required|max:20|min:8',
+                'username' => 'required|max:20|min:8|alpha_num',
             ]);
     
             if ($validator->fails()) {
