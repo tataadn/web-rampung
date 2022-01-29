@@ -23,6 +23,9 @@ Route::get('about', [WebController::class, 'about'])->name('page.about');
 Route::get('blog', [WebController::class, 'blog'])->name('page.blog');
 Route::get('carier', [WebController::class, 'carier'])->name('page.carier');
 Route::get('home', [WebController::class, 'home'])->name('page.home');
+Route::get('solution', [WebController::class, 'solution'])->name('page.solution');
+Route::get('scholarship', [WebController::class, 'scholarship'])->name('page.scholarship');
+Route::get('academy', [WebController::class, 'academy'])->name('page.academy');
 Route::post('subscription', [SubscribeController::class, 'store'])->name('subscription.store');
 
 Route::prefix('auth/')->name('auth.')->group(function(){

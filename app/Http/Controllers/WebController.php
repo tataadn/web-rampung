@@ -25,4 +25,19 @@ class WebController extends Controller
     {
         return view('page.home');
     }
+
+    public function scholarship()
+    {
+        return view('page.scholarship');
+    }
+
+    public function academy()
+    {
+        return view('page.academy');
+    }
+
+    public function solution()
+    {
+        return view('page.solution');
+    }
 }

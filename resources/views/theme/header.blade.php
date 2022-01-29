@@ -30,11 +30,11 @@
         <!-- Left links -->
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item me-3">
-            <strong><a class="nav-link" href="{{route('page.about')}}">Tentang Kami</a></strong>
+            <strong><a class="nav-link {{request()->is('about') ? 'active' : ''}}" href="{{route('page.about')}}">Tentang Kami</a></strong>
           </li>
           <li class="nav-item dropdown position-static me-3">
             <a
-              class="nav-link"
+              class="nav-link {{ (request()->is('solution')  ? 'active' : request()->is('academy') ?? request()->is('scholarship')) ? 'active' : ''}}"
               href="#"
               id="navbarDropdown"
               role="button"
@@ -103,8 +103,8 @@
                         >Rala Research</a
                       >
                       <a
-                        href=""
-                        class="list-group-item list-group-item-action"
+                        href="{{route('page.solution')}}"
+                        class="list-group-item list-group-item-action  {{request()->is('solution') ? 'active' : ''}}"
                         ><i
                           class="fas fa-caret-right pe-2"
                         ></i
@@ -119,8 +119,8 @@
                         >Rala Report</a
                       >
                       <a
-                        href=""
-                        class="list-group-item list-group-item-action"
+                        href="{{route('page.academy')}}"
+                        class="list-group-item list-group-item-action  {{request()->is('academy') ? 'active' : ''}}"
                         ><i
                           class="fas fa-caret-right pe-2"
                         ></i
@@ -132,11 +132,13 @@
                     <div
                       class="list-group list-group-flush"
                     >
-                      <p
-                        class="mb-0 list-group-item text-uppercase font-weight-bold"
-                      >
-                      Indonesia Paham Statistika Scholarship
-                      </p>
+                    <p
+                      class="mb-0 list-group-item text-uppercase font-weight-bold"
+                    >
+                      <a class="list-group-item list-group-item-action  {{request()->is('scholarship') ? 'active' : ''}}" href="{{route('page.scholarship')}}">
+                        Indonesia Paham Statistika Scholarship
+                      </a>
+                    </p>
                       <p class="list-group-item">
                         Merupakan program pelatihan literasi statistika untuk guru dan pelajar yang bertujuan untuk meningkatkan kemampuan literasi statistik siswa dan guru. Program gratis dengan sertifikat 32 JPL (8 hari pelatihan). Pelatihan diadakan setiap hari Sabtu/Minggu
                       </p>
@@ -147,10 +149,10 @@
             </div>
           </li>
           <li class="nav-item me-3">
-            <strong><a class="nav-link" href="{{route('page.blog')}}">Blog</a></strong>
+            <strong><a class="nav-link  {{request()->is('blog') ? 'active' : ''}}" href="{{route('page.blog')}}">Blog</a></strong>
           </li>
           <li class="nav-item me-3">
-            <strong><a class="nav-link" href="{{route('page.carier')}}">Karir</a></strong>
+            <strong><a class="nav-link  {{request()->is('carier') ? 'active' : ''}}" href="{{route('page.carier')}}">Karir</a></strong>
           </li>
         </ul>
         <!-- Left links -->

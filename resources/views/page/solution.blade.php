@@ -11,7 +11,7 @@
                         <h1 class="mb-5 display-4 fw-bold">Penelitianmu!</h1>
                         <h6 class="mb-5 text-justify lh-base" style="text-align: justify;">Kami hadir dengan menyediakan servis olah data sesuai dengan kebutuhan Anda. Kami menggunakan bantuan Machine Learning dan Artificial Intelegence (AI) untuk memaksimalkan pengolahan data sehingga menghasilkan output yang sesuai dengan kebutuhan Anda.
                         </h6>
-                        <a class="btn btn-warning btn-rounded text-uppercase" style="color: black;" href="" role="button"><h6>tertarik? mari berdiskusi lebih lanjut</h6></a>
+                        <a class="btn btn-warning btn-rounded text-uppercase" style="color: black;" href="https://wa.me/6283867525611?text=Saya%20tertarik%20untuk%20berdiskusi%20lebih%20lanjut" role="button" target="_blank"><h6>tertarik? mari berdiskusi lebih lanjut</h6></a>
                     </div>
                     <div class="col-md-6 justify-content-center" data-aos="zoom-in" data-aos-duration="2000">
                         <img src="img/pic.png" class="img-fluid">
@@ -208,7 +208,7 @@
                     </p>
                     <div class="row justify-content-center text-center">
                         <div class="col-md-4">
-                        <a href="" class="btn btn-outline-primary text-uppercase fw-bold" style="color: black;"><h2 class="m-2">bayar</h2></a>
+                        <a href="https://wa.me/6283867525611" target="_blank" class="btn btn-outline-primary text-uppercase fw-bold" style="color: black;"><h2 class="m-2">bayar</h2></a>
                         </div>
                     </div>
                     </div>
