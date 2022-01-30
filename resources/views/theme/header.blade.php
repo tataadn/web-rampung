@@ -95,7 +95,7 @@
                         layanan
                       </p>
                       <a
-                        href=""
+                        href="{{route('page.blog')}}#report-research"
                         class="list-group-item list-group-item-action"
                         ><i
                           class="fas fa-caret-right pe-2"
@@ -111,7 +111,7 @@
                         >Rala Data Solution</a
                       >
                       <a
-                        href=""
+                        href="{{route('page.blog')}}#report-research"
                         class="list-group-item list-group-item-action"
                         ><i
                           class="fas fa-caret-right pe-2"

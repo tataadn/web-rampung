@@ -88,11 +88,11 @@
 
     <!-- bagian kedua -->
     <section id="report-research" class="bg-dark bg-opacity-10">
-        <div class="container p-5 justify-content-center">
+        <div class="container mt-4 p-5 justify-content-center">
           <div class="row p-3">
             <div class="col">
               <div class="">
-                <div class="row">
+                <div class="row p-4">
                   <div class="col-sm-3 text-center">
                     <img src="https://media.springernature.com/w306/springer-static/cover-hires/book/978-0-230-11800-3" 
                          alt=""
@@ -102,7 +102,7 @@
                   <div class="col-sm-4">
                       <div class="">
                           <div class="card-body">
-                            <h4>Education Report by RALA Report</h4>
+                            <h4 class="fw-bold">Education Report by RALA Report</h4>
                             <p>Berlangganan konten insight report Pendidikan. Konten eksklusif hanya untuk pelanggan Rampung Analytic dan tidak dapat ditemukan di tempat lain</p>
                             <a href="" class="btn btn-primary text-uppercase">pelajari selengkapnya</a>
                           </div>
@@ -111,10 +111,10 @@
                  <div class="col-sm-5">
                      <div class="" style="border-left: 2px solid black;">
                          <div class="card-body">
-                            <h5 style="color: orange;">Kustomisasi</h5>
+                            <h5 class="fw-bold" style="color: orange;">Kustomisasi</h5>
                             <h5>Penelitian tentang Pendidikan</h5>
                             <br><br>
-                            <h5 style="color: orange;">Rala Research</h5>
+                            <h5 class="fw-bold" style="color: orange;">Rala Research</h5>
                             <h5>layanan kustomisasi penelitian di bidang pendidikan</h5>
                             <a href="" class="btn btn-primary text-uppercase">pelajari selengkapnya</a>
                          </div>
