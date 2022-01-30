@@ -13,17 +13,17 @@
                 <div class="row m-3">
                     <div class="col-sm-4 mb-3 hover-zoom">
                         <a href="#course">
-                            <img src="img/bg/Instagram_post_-_1-removebg-preview.png" alt="" style="max-width: 280px;">
+                            <img src="img/bg/1.png" alt="" style="max-width: 280px;">
                         </a>
                     </div>
                     <div class="col-sm-4 mb-3 hover-zoom">
                         <a href="#virtual">
-                            <img src="img/bg/Instagram_post_-_2-removebg-preview.png" alt="" style="max-width: 280px;">
+                            <img src="img/bg/2.png" alt="" style="max-width: 280px;">
                         </a>
                     </div>
                     <div class="col-sm-4 mb-3 hover-zoom">
                         <a href="#mentorship">
-                            <img src="img/bg/Instagram_post_-_3-removebg-preview.png" alt="" style="max-width: 280px;">
+                            <img src="img/bg/3.png" alt="" style="max-width: 280px;">
                         </a>
                     </div>
                 </div>
