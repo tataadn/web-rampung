@@ -87,7 +87,7 @@
     <!-- bagian pertama -->
 
     <!-- bagian kedua -->
-    <section class="content bg-dark bg-opacity-10">
+    <section id="report-research" class="bg-dark bg-opacity-10">
         <div class="container p-5 justify-content-center">
           <div class="row p-3">
             <div class="col">
