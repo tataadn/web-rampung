@@ -116,7 +116,7 @@
                             <br><br>
                             <h5 class="fw-bold" style="color: orange;">Rala Research</h5>
                             <h5>layanan kustomisasi penelitian di bidang pendidikan</h5>
-                            <a href="https://wa.me/6283867525611?text=Saya%20tertarik%20untuk%20berdiskusi%20lebih%20lanjut" target="_blank" class="btn btn-primary text-uppercase">pelajari selengkapnya</a>
+                            <a href="https://wa.me/6283867525611?text=Saya%20tertarik%20untuk%20berdiskusi%20lebih%20lanjut"target="_blank" class="btn btn-primary text-uppercase">pelajari selengkapnya</a>
                          </div>
                      </div>
                  </div>
