@@ -40,4 +40,19 @@ class WebController extends Controller
     {
         return view('page.solution');
     }
+
+    public function course()
+    {
+        return view('page.course');
+    }
+
+    public function training()
+    {
+        return view('page.training');
+    }
+
+    public function mentorship()
+    {
+        return view('page.mentorship');
+    }
 }
