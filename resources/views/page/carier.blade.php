@@ -33,7 +33,7 @@
                           </a>
                         </div>
                         <div class="card-body text-center">
-                          <h5 class="card-title">Growth</h5>
+                          <h5 class="fw-bold card-title">Growth</h5>
                           <p class="card-text">Kami percaya bahwa pengembangan diri harus dilakukan terus menerus</p>
                         </div>
                       </div>
@@ -47,10 +47,10 @@
                           </a>
                         </div>
                         <div class="card-body text-center">
-                          <h5 class="card-title">Kaizen</h5>
+                          <h5 class="fw-bold card-title">Kaizen</h5>
                           <p class="card-text">Kami melakukan penyempurnaan pada setiap elemen secara terus menerus</p>
                           </div>
-                      </div>
+                    </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="kartu me-3">
@@ -61,7 +61,7 @@
                           </a>
                         </div>
                         <div class="card-body text-center">
-                          <h5 class="card-title">Excellence</h5>
+                          <h5 class="fw-bold card-title">Excellence</h5>
                           <p class="card-text">Kami selalu menerapkan standar tinggi dalam bekerja untuk menjamin kualitas</p>
                           </div>
                       </div>
@@ -81,36 +81,84 @@
               </div>
               <div class="row">
                   <div class="col-sm-4">
-                        <div class="me-3 hover-zoom" style="width: 18rem;">
-                            <img src="img/Analysis _Isometric.png" class="card-img-top" alt="Sunset Over the Sea"/>
+                    <div class="kartu me-3">
+                        <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+                          <img src="img/Analysis _Isometric.png" class="img-fluid"/>
+                          <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                          </a>
                         </div>
+                        <div class="card-body text-center">
+                          <h5 class="fw-bold card-title">Copywriter</h5>
+                          </div>
+                    </div>
                   </div>
                   <div class="col-sm-4">
-                        <div class="me-3 hover-zoom" style="width: 18rem;">
-                            <img src="img/Data analyst _Isometric.png" class="card-img-top" alt="Sunset Over the Sea"/>
+                    <div class="kartu me-3">
+                        <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+                          <img src="img/Analysis _Isometric.png" class="img-fluid"/>
+                          <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                          </a>
                         </div>
+                        <div class="card-body text-center">
+                          <h5 class="fw-bold card-title">Copywriter</h5>
+                          </div>
+                    </div>
                   </div>
                   <div class="col-sm-4">
-                        <div class="me-3 hover-zoom" style="width: 18rem;">
-                            <img src="img/Online lesson _Isometric.png" class="card-img-top" alt="Sunset Over the Sea"/>
+                    <div class="kartu me-3">
+                        <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+                          <img src="img/Analysis _Isometric.png" class="img-fluid"/>
+                          <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                          </a>
                         </div>
+                        <div class="card-body text-center">
+                          <h5 class="fw-bold card-title">Copywriter</h5>
+                          </div>
+                    </div>
                   </div>
               </div>
               <div class="row p-3">
-                  <div class="col-sm-4">
-                        <div class="me-3 hover-zoom" style="width: 18rem;">
-                            <img src="img/Analysis _Isometric.png" class="card-img-top" alt="Sunset Over the Sea"/>
+                <div class="col-sm-4">
+                    <div class="kartu me-3">
+                        <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+                          <img src="img/Analysis _Isometric.png" class="img-fluid"/>
+                          <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                          </a>
                         </div>
+                        <div class="card-body text-center">
+                          <h5 class="fw-bold card-title">Copywriter</h5>
+                          </div>
+                    </div>
                   </div>
                   <div class="col-sm-4">
-                        <div class="me-3 hover-zoom" style="width: 18rem;">
-                            <img src="img/Data analyst _Isometric.png" class="card-img-top" alt="Sunset Over the Sea"/>
+                    <div class="kartu me-3">
+                        <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+                          <img src="img/Analysis _Isometric.png" class="img-fluid"/>
+                          <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                          </a>
                         </div>
+                        <div class="card-body text-center">
+                          <h5 class="fw-bold card-title">Copywriter</h5>
+                          </div>
+                    </div>
                   </div>
                   <div class="col-sm-4">
-                        <div class="me-3 hover-zoom" style="width: 18rem;">
-                            <img src="img/Online lesson _Isometric.png" class="card-img-top" alt="Sunset Over the Sea"/>
+                    <div class="kartu me-3">
+                        <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+                          <img src="img/Analysis _Isometric.png" class="img-fluid"/>
+                          <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                          </a>
                         </div>
+                        <div class="card-body text-center">
+                          <h5 class="fw-bold card-title">Copywriter</h5>
+                          </div>
+                    </div>
                   </div>
               </div>
           </div>

@@ -29,6 +29,7 @@ Route::get('academy', [WebController::class, 'academy'])->name('page.academy');
 Route::get('course', [WebController::class, 'course'])->name('page.course');
 Route::get('training', [WebController::class, 'training'])->name('page.training');
 Route::get('mentorship', [WebController::class, 'mentorship'])->name('page.mentorship');
+Route::get('payment', [WebController::class, 'payment'])->name('page.payment');
 Route::post('subscription', [SubscribeController::class, 'store'])->name('subscription.store');
 
 Route::prefix('auth/')->name('auth.')->group(function(){

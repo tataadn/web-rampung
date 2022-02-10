@@ -55,4 +55,9 @@ class WebController extends Controller
     {
         return view('page.mentorship');
     }
+
+    public function payment()
+    {
+        return view('page.payment');
+    }
 }

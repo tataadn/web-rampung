@@ -40,14 +40,7 @@
                         data-mdb-parent="#accordionFlushExample"
                       >
                         <div class="accordion-body">
-                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                          richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                          brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                          sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
-                          et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                          sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
-                          craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
-                          heard of them accusamus labore sustainable VHS.
+                          <h6>Merupakan program pelatihan literasi statistika untuk guru dan pelajar yang bertujuan untuk meningkatkan kemampuan literasi statistik siswa dan guru. Program gratis dengan sertifikat 16 JPL (8 hari pelatihan). Pelatihan diadakan setiap hari Sabtu/Minggu.</h6>
                         </div>
                       </div>
                     </div>
@@ -71,14 +64,7 @@
                         data-mdb-parent="#accordionFlushExample"
                       >
                         <div class="accordion-body">
-                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                          richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                          brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                          sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
-                          et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                          sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
-                          craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
-                          heard of them accusamus labore sustainable VHS.
+                          <h6>Program ini sangat menarik untuk diikuti karena menawarkan benefit luar biasa di antaranya pengajar yang asik, mendapatkan sertifikat 16 JPL, dapat mengganti pertemuan di kelas selama 1 minggu, dan tentunya program ini <b>GRATIS!</b></h6>
                         </div>
                       </div>
                     </div>
@@ -102,14 +88,10 @@
                         data-mdb-parent="#accordionFlushExample"
                       >
                         <div class="accordion-body">
-                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                          richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                          brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                          sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
-                          et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                          sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
-                          craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
-                          heard of them accusamus labore sustainable VHS.
+                          <ul>
+                            <li><h6>Kelas Sinkron (Tatap muka secara online)</h6></li>
+                            <li><h6>Kelas Asinkron (Penugasan Mandiri)</h6></li>
+                          </ul>
                         </div>
                       </div>
                     </div>
@@ -133,14 +115,26 @@
                         data-mdb-parent="#accordionFlushExample"
                       >
                         <div class="accordion-body">
-                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                          richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                          brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                          sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
-                          et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                          sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
-                          craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
-                          heard of them accusamus labore sustainable VHS.
+                          <table class="table">
+                            <tbody class="fw-bold">
+                              <tr>
+                                <td><h6>Basic Statistic</h6></td>
+                                <td><h6>: 2 hari (90 menit/pertemuan)</h6></td>
+                              </tr>
+                              <tr>
+                                <td><h6>Multivariate Statistic</h6></td>
+                                <td><h6>: 2 hari</h6></td>
+                              </tr>
+                              <tr>
+                                <td><h6>Structural Modeling</h6></td>
+                                <td><h6>: 2 hari</h6></td>
+                              </tr>
+                              <tr>
+                                <td><h6>Experimental Research</h6></td>
+                                <td><h6>: 2 hari</h6></td>
+                              </tr>
+                            </tbody>
+                          </table>
                         </div>
                       </div>
                     </div>
@@ -164,14 +158,7 @@
                         data-mdb-parent="#accordionFlushExample"
                       >
                         <div class="accordion-body">
-                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                          richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                          brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                          sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
-                          et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                          sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
-                          craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
-                          heard of them accusamus labore sustainable VHS.
+                          <h6>Target utama dari program ini adalah pelajar dan guru, namun kami juga membuka untuk umum.</h6>
                         </div>
                       </div>
                     </div>
@@ -195,14 +182,7 @@
                         data-mdb-parent="#accordionFlushExample"
                       >
                         <div class="accordion-body">
-                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                          richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                          brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                          sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
-                          et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                          sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
-                          craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
-                          heard of them accusamus labore sustainable VHS.
+                          <h6>Text here</h6>
                         </div>
                       </div>
                     </div>
@@ -226,14 +206,31 @@
                         data-mdb-parent="#accordionFlushExample"
                       >
                         <div class="accordion-body">
-                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                          richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                          brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                          sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
-                          et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                          sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
-                          craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
-                          heard of them accusamus labore sustainable VHS.
+                          <h6>Text Here</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-heading8">
+                        <button
+                          class="accordion-button collapsed fw-bold"
+                          type="button"
+                          data-mdb-toggle="collapse"
+                          data-mdb-target="#flush-collapse8"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse8"
+                        >
+                        Mekanisme belajar
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse8"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-heading8"
+                        data-mdb-parent="#accordionFlushExample"
+                      >
+                        <div class="accordion-body">
+                          <h6>Sertifikat akan diberikan jika mengikuti keseluruhan program 8 pertemuan.</h6>
                         </div>
                       </div>
                     </div>

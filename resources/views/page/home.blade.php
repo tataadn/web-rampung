@@ -4,8 +4,8 @@
       <!-- Jumbotron -->
       <div class="jumbotron">
         <div class="container">
-            <div class="row mb-5" style="padding: 6rem 2rem 3rem 2rem;">
-                <div class="col-md-7 mb-4 mt-4" data-aos="fade-up" data-aos-duration="3000">
+            <div class="row" style="padding: 6rem 2rem 3rem 2rem;">
+                <div class="col-md-7 mt-4" data-aos="fade-up" data-aos-duration="3000">
                   <h1 class="mb-3 display-4">Big Data Analytic & AI</h1>
                   <h1 class="mb-5 display-4">Platform for <a href="" style="text-decoration: none; cursor: text;">Education</a></h1>
                   <h3 class="mb-5">Rampung Analytic membantu dan mempermudah pendidik untuk merumuskan strategi pengajaran dan menganalisis hasil belajar siswa dan strategi pengajaran                  </h3>
@@ -22,7 +22,7 @@
       <!-- Content explain -->
       <section class="content">
         <div class="container p-5 justify-content-center">
-          <div class="row text-center p-5 mb-3" >
+          <div class="row text-center mb-3" >
             <div class="col">
               <h4 data-aos="fade-up" data-aos-duration="3000">
                 <strong>Rampung Analytic membantu menganalisis informasi yang dikumpulkan dari para peserta untuk mengeksplorasi fungsi berbagai komponen dari sistem pembelajaran, menganalisis hasil belajar peserta dan strategi pengajaran</strong>
