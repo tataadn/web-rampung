@@ -187,30 +187,6 @@
                       </div>
                     </div>
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-heading7">
-                        <button
-                          class="accordion-button collapsed fw-bold"
-                          type="button"
-                          data-mdb-toggle="collapse"
-                          data-mdb-target="#flush-collapse7"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse7"
-                        >
-                        Mekanisme belajar
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse7"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="flush-heading7"
-                        data-mdb-parent="#accordionFlushExample"
-                      >
-                        <div class="accordion-body">
-                          <h6>Text Here</h6>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
                       <h2 class="accordion-header" id="flush-heading8">
                         <button
                           class="accordion-button collapsed fw-bold"

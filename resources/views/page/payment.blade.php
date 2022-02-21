@@ -23,7 +23,7 @@
                     </p>
                     <div class="row justify-content-center text-center">
                         <div class="col-md-4">
-                        <a href="https://wa.me/6283867525611" target="_blank" class="btn btn-outline-primary text-uppercase fw-bold" style="color: black;"><h2 class="m-2">bayar</h2></a>
+                        <a href="https://wa.me/6283867525611?text=Saya%20tertarik%20untuk%20berdiskusi%20lebih%20lanjut" target="_blank" class="btn btn-outline-primary text-uppercase fw-bold" style="color: black;"><h2 class="m-2">bayar</h2></a>
                         </div>
                     </div>
                     </div>

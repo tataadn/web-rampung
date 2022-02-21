@@ -45,7 +45,7 @@
                         <h5 class="card-title">Education <br> Report by RALA Report
                         </h5>
                         <p class="card-text">
-                            <a href="">Free</a>
+                            <a>Free</a>
                         </p>
                         </div>
                     </div>
@@ -70,7 +70,7 @@
                         <h5 class="card-title">Education <br> Report by RALA Report
                         </h5>
                         <p class="card-text">
-                            <a href="">Free</a>
+                            <a>Free</a>
                         </p>
                         </div>
                     </div>
@@ -122,7 +122,7 @@
                         <h5 class="card-title">Education <br> Report by RALA Report
                         </h5>
                         <p class="card-text">
-                            <a href="">Free</a>
+                            <a>Free</a>
                         </p>
                         </div>
                     </div>
@@ -147,7 +147,7 @@
                         <h5 class="card-title">Education <br> Report by RALA Report
                         </h5>
                         <p class="card-text">
-                            <a href="">Free</a>
+                            <a>Free</a>
                         </p>
                         </div>
                     </div>

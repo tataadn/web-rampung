@@ -79,11 +79,10 @@
             <h6 class="text-uppercase fw-bold mb-4">
               IKUTI KAMI
             </h6>
-            <a href=""><i class="fab fa-instagram fa-2x me-2"></i></a>
-            <a href=""><i class="fab fa-linkedin fa-2x me-2"></i></a>
-            <a href=""><i class="fab fa-youtube fa-2x me-2"></i></a>
-            <a href=""><i class="fab fa-facebook fa-2x me-2"></i></a>
-            <a href=""><i class="fab fa-twitter fa-2x me-2"></i></a>
+            <a href="https://www.instagram.com/rampung_analytic/"><i class="fab fa-instagram fa-2x me-2"></i></a>
+            <a href="https://www.linkedin.com/company/rampunganalytic/"><i class="fab fa-linkedin fa-2x me-2"></i></a>
+            <a href="https://youtube.com/"><i class="fab fa-youtube fa-2x me-2"></i></a>
+            <a href="https://twitter.com/AnalyticRampung"><i class="fab fa-twitter fa-2x me-2"></i></a>
           </div>
           <!-- Grid column -->
         </div>
